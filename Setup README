@@ -1,0 +1,10 @@
+1) Open the cloned folder with vscode or any text editor
+2)Create a developer account in twitter
+4)Create an app and generate required tokens
+3)Enable Filtered Stream for the created app from Option(Labs>Manage )
+5)In the config.js file fill the required feilds with tokens generated from twitter developer account
+6)Open terminal in the cloned folder and run "npm install" to install dependencies
+7)after installing all dependencies run "node server.js" this will start the server at port 8080
+8)open another terminal in the same folder and run "npm start" this will start react application in port 3000 
+9) By default the app is hardcoded to get tweets on (java,javascript,firebase)
+10)search using a keyword to get custom tweets
